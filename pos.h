@@ -1,6 +1,10 @@
 #ifndef POS_H
 #define POS_H
 
+#include <tuple>
+
+using namespace std;
+
 class Pos
 {
 private:
@@ -11,7 +15,7 @@ private:
 public:
     Pos();
     Pos(int col_, int row_);
-    Pos getPosition();
+    tuple<int,int> getPosition();
     int getX();
     int getY();
     void setPosition(int col_, int row_);
