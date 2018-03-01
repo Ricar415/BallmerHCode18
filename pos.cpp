@@ -1,44 +1,44 @@
 #include "pos.h"
 
-Pos::Pos()
+pos::pos()
 {
 }
 
-Pos::Pos(int col_, int row_)
+pos::pos(int col_, int row_)
 {
     col = col_;
     row = row_;
 }
 
-tuple<int,int> Pos::getPosition()
+/*tuple<int,int> Pos::getPosition()
 {
     tuple<int,int> position(col,row);
 
-    return position;
+    return position;*/
 }
 
-int Pos::getX()
+int pos::getX()
 {
     return col;
 }
 
-int Pos::getY()
+int pos::getY()
 {
     return row;
 }
 
-void Pos::setPosition(int col_, int row_)
+void pos::setPosition(int col_, int row_)
 {
     col = col_;
     row = row_;
 }
 
-void Pos::setX(int x_)
+void pos::setX(int x_)
 {
     col = x_;
 }
 
-void Pos::setY(int y_)
+void pos::setY(int y_)
 {
     row = y_;
 }

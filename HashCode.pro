@@ -4,8 +4,17 @@ CONFIG -= app_bundle
 CONFIG -= qt
 
 SOURCES += main.cpp \
-    pos.cpp
+    pos.cpp \
+    vehicle.cpp \
+    ride.cpp \
+    platform.cpp
+    vehicle.cpp
 
 HEADERS += \
-    pos.h
+    pos.h \
+    vehicle.h \
+    ride.h \
+    platform.h
+    vehicle.h
+
 
